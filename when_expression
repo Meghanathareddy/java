@@ -1,0 +1,16 @@
+fun main(args:Array<String>)
+{
+    //WHEN AS EXPRESSION
+    val x = 5
+    when(x)
+    {
+        1 -> println("x is 1")
+        2 -> println("x is 2")
+
+        else -> 
+        {
+            println("x value is unknown)
+            println(" I don't knpw what is x")
+        }
+    }
+}
